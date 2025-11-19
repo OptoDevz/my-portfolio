@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Rahin-Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/no.jpg" alt="A photo of Md Rahin mogging you.">
+            <h1>Md Rahin</h1>
+            <h2>First-Year Engineering Student</h2>
+        </header>
+        <main>
+            <section class="about me" id="about-section">
+                <button id="highlight-btn">Highlight This Section</button>
+                <p>
+                    Hello! I am Md Rahin, a student at Texas Tech University who is studying computer science.
+                    I am passionate about history and learning about technology.
+                </p>
+            </section>
+
+            <section class="interests">
+                <button id="toggle-btn">Hide My Interests</button>
+                <h2 id="interests"> My Interests </h2>
+                <ul id="interests-list">
+                    <li>Computer Science</li>
+                    <li>History</li>
+                    <li>Philosophy</li>
+                    <li>Space</li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <h2>My Projects</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Project ENGR 1340</td>
+                            <td>Engineering design process.</td>
+                            <td>Fall 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Personal Portfolio</td>
+                            <td>This website, built with HTML & CSS.</td>
+                            <td>Fall 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Project 2</td>
+                            <td>Website of our food delivery app</td>
+                            <td>11/26/2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="key-features">
+                <h2>Key Features</h2>
+                <div class="features">
+                    <div class="feature-item">
+                        <h3>Feature 1</h3>
+                        <p>This is the first key feature. It solves a user problem.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Feature 2</h3>
+                        <p>This is the second key feature. It's fast and reliable.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Feature 3</h3>
+                        <p>This is the third key feature. It's easy to use.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact">
+                <h2>Contact Me</h2>
+                <p>Have a question or want to work together?</p>
+
+                <form action="mailto:your-email@university.edu" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <button id="contact-btn">Show My Email</button>
+            <p id="email-display"></p>
+
+            <p>&copy; 2025 Md Rahin</p>
+            <p> | 
+                Visit my <a href="https://github.com/OptoDevz" target="_blank">GitHub</a> page!
+                <br>
+                <a href="https://linkedin.com" target="_blank">Open LinkedIn in a new tab</a>
+            </p>
+            <a href="#interests">Go To Interests Section</a>
+        </footer>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
